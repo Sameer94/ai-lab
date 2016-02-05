@@ -1,4 +1,6 @@
-w(1:4)=[1,1,1,1]; #intital random values of weight
+#z=input("enter weight length");
+
+w(1:4)=rand; #intital random values to weight
 [a1,a2,a3,a4,Target_function]=textread("pla_iris.txt","%f,%f,%f,%f,%f");
 percent=70;
 
